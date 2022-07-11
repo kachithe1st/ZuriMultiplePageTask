@@ -1,0 +1,79 @@
+/* CSS RESET */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --line-color: #2b6777;
+}
+
+body {
+  background-color: #c8d8e4;
+}
+
+h1 {
+  color: #2b6777;
+  margin: 30px;
+}
+
+.ribbon {
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+.headlink {
+  padding: 10px;
+}
+
+p,
+div {
+  padding: 10px 30px 0px 30px;
+  color: #2b6777;
+}
+#loginnav {
+  padding-left: 10px;
+}
+
+a:link,
+:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+#tablediv {
+  background-color: var(--line-color);
+}
+
+#submit {
+  background: #b9dfff;
+  color: #000;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+  height: 50px;
+  width: 120px;
+  margin: 30px;
+}
+
+#submit:hover {
+  background: #016abc;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+}
+#PBZ {
+  font-size: 100%;
+  color: black;
+  text-align: right;
+  padding-right: 50px;
+  padding-top: 500px;
+}

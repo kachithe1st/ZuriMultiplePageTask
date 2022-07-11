@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <header>
+        <div id="tablediv">
+            <table class="ribbon">
+                <thead>
+                    <!-- different actions for different links on different pages -->
+                    <tr>
+                        <th id="ribbonlink"><a href="index.html" target="_self">Homepage</a></th>
+                        <th><a href="Contactme.html" target="_blank">Contact Me</a></th>
+                        <th id="loginnav"><a href="loginpage.html" target="_self">Login</a></th>
+
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <h1>Register</h1>
+    </header>
+    <main>
+        <table>
+            <form action="loginpage.html">
+                <!-- the login page  -->
+                <tr>
+                    <td><label for="fname">First Name</label></td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td><label for="lname">Last Name </label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="Pnumb">Phone Number </label></td>
+                    <td><input type="tel" name="number" placeholder="+234-123-123-1234" pattern="+234-[0-9]{3}-[0-9]{3}-[0-9]{4}" required></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender </label></td>
+                    <td>
+                        <select name="gender" id="gender" required>
+                            <option value="male">Male</option>
+                            <option value="male">Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="country">Counrty </label></td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td><label for="state">State/Province</label></td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" placeholder="elonmusk@gmail.com" required></td>
+                </tr>
+                <tr>
+                   <td><label for="password"> Input Password</label></td>
+                   <td><input type="password" required></td>
+                </tr>
+                <tr>
+                   <td><label for="password"> Confirm Password</label></td>
+                   <td><input type="password" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input id="btn" type="submit" value="Submit">
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </main>
+    <footer>
+        <p id="PBZ">Powered By Zuri&copy;</p>
+    </footer>
+</body>
+</html>
