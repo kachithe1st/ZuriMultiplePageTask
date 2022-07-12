@@ -67,7 +67,8 @@ img {
   width: 40%;
   border: 2px dotted cornsilk;
   background-color: rgba(219, 26, 42, 0.932);
-  font-size: 200%
+  font-size: 200%;
+  background-image: url(balloons.jpg);
 }
 #PBZ {
   font-size: 100%;
